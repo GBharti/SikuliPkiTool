@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="30384" started-at="2017-06-08T12:32:11Z" finished-at="2017-06-08T12:32:42Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="30384" started-at="2017-06-08T12:32:11Z" finished-at="2017-06-08T12:32:42Z">
+      <class name="com.test.SikuliMaven.PkiLoginTest">
+        <test-method status="PASS" signature="pkiLoginTest()[pri:0, instance:com.test.SikuliMaven.PkiLoginTest@675d3402]" name="pkiLoginTest" duration-ms="7453" started-at="2017-06-08T18:02:11Z" finished-at="2017-06-08T18:02:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pkiLoginTest -->
+      </class> <!-- com.test.SikuliMaven.PkiLoginTest -->
+      <class name="com.test.SikuliMaven.PkiUserAddTest">
+        <test-method status="PASS" signature="pkiUserAddTest()[pri:0, instance:com.test.SikuliMaven.PkiUserAddTest@1593948d]" name="pkiUserAddTest" duration-ms="16208" started-at="2017-06-08T18:02:19Z" finished-at="2017-06-08T18:02:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pkiUserAddTest -->
+      </class> <!-- com.test.SikuliMaven.PkiUserAddTest -->
+      <class name="com.test.SikuliMaven.PkiUserDeleteTest">
+        <test-method status="PASS" signature="pkiUserDeleteTest()[pri:0, instance:com.test.SikuliMaven.PkiUserDeleteTest@1b604f19]" name="pkiUserDeleteTest" duration-ms="6703" started-at="2017-06-08T18:02:35Z" finished-at="2017-06-08T18:02:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pkiUserDeleteTest -->
+      </class> <!-- com.test.SikuliMaven.PkiUserDeleteTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
