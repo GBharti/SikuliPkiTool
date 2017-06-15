@@ -3,6 +3,7 @@ package com.test.SikuliMaven;
 import org.sikuli.script.FindFailed;
 import org.sikuli.script.Key;
 import org.sikuli.script.Screen;
+import org.testng.Reporter;
 
 public class PkiUserAdd {
 
@@ -12,11 +13,17 @@ public class PkiUserAdd {
 	{
 		Screen s = new Screen();
 		
+		
+		
 		s.click(s.wait("PkiTool_management_tab", 20));
+		
+		Reporter.log("management link is available");
 		
 		s.click("PkiTool_PkiUseroption.PNG");
 		
-		s.click("PkiTool_PkiUser_add_btn");
+		Reporter.log("Pki user option is found");
+		
+		s.click(s.wait("PkiTool_PkiUser_add_btn",20));
 		
 		s.find("PkiTool_PkiUser_Add_FirstName_textfield");
 		
@@ -63,6 +70,11 @@ public class PkiUserAdd {
 		s.click("PkiTool_PkiUser_Window_add_btn");
 		
 		s.click(s.wait("PkiTool_PkiUser_Window_add_success_message",20));
+		
+		
+
+		
+	
 		
 		
 	}}

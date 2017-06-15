@@ -3,12 +3,16 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
+       <class name="com.test.SikuliMaven.PkiLoginTest"/>
+       <!-- <class name="com.test.SikuliMaven.PkiUserAddTest"/> -->
+      <!--  <class name="com.test.SikuliMaven.PkiUserEditTest"/> -->
+      <!-- <class name="com.test.SikuliMaven.PkiUserDeleteTest"/> -->
+      <class name="com.test.SikuliMaven.PkiCompanyAddTest"/>
+       <class name="com.test.SikuliMaven.PkiCompanyDeleteTest"/>
+      <class name="com.test.SikuliMaven.PkiToolApplicationExitTest"/>
       
-     <class name="com.test.SikuliMaven.PkiLoginTest"/>
-      <class name="com.test.SikuliMaven.PkiUserAddTest"/>
-      <class name="com.test.SikuliMaven.PkiUserDeleteTest"/>
-      
-      
+   
+  
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
