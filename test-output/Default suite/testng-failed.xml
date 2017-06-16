@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.test.SikuliMaven.PkiUser">
+      <class name="com.test.SikuliMaven.PkiUserDeleteTest">
         <methods>
-          <include name="pkiLogin"/>
+          <include name="pkiUserDeleteTest"/>
         </methods>
-      </class> <!-- com.test.SikuliMaven.PkiUser -->
+      </class> <!-- com.test.SikuliMaven.PkiUserDeleteTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

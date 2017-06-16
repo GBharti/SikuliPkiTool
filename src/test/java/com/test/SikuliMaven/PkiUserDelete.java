@@ -20,14 +20,14 @@ public void pkiUserDelete() throws FindFailed
 		
 		s.find("PkiTool_PkiUser_delete_success_yes_btn");
 		
-	 s.click("PkiTool_PkiUser_delete_success_yes_btn");
+	 s.click(s.wait("PkiTool_PkiUser_delete_success_yes_btn",20));
+	 
+	
+   //s.wait(("PkiTool_PkiUser_delete_success_ok_btn"),20);
+	 
+	 //s.find("PkiTool_PkiUser_delete_success_ok_btn");
 	 
 	 
-	 s.wait(("PkiTool_PkiUser_delete_success_ok_btn"),20);
-	 
-	 s.find("PkiTool_PkiUser_delete_success_ok_btn");
-	 
-	 
-	 s.click("PkiTool_PkiUser_delete_success_ok_btn");
+	 s.click(s.wait("PkiTool_PkiUser_delete_success_ok_btn",20));
 
 }}

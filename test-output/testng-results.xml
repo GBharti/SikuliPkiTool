@@ -1,74 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
+    <line>
+      <![CDATA[management link is available]]>
+    </line>
+    <line>
+      <![CDATA[Pki user option is found]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="47928" started-at="2017-06-14T12:56:18Z" finished-at="2017-06-14T12:57:06Z">
+  <suite name="Suite" duration-ms="51587" started-at="2017-06-16T11:39:05Z" finished-at="2017-06-16T11:39:56Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="47928" started-at="2017-06-14T12:56:18Z" finished-at="2017-06-14T12:57:06Z">
+    <test name="Test" duration-ms="51587" started-at="2017-06-16T11:39:05Z" finished-at="2017-06-16T11:39:56Z">
       <class name="com.test.SikuliMaven.PkiCompanyAddTest">
-        <test-method status="PASS" signature="pkiCompanyAddTest()[pri:0, instance:com.test.SikuliMaven.PkiCompanyAddTest@1b604f19]" name="pkiCompanyAddTest" duration-ms="19065" started-at="2017-06-14T18:26:25Z" finished-at="2017-06-14T18:26:44Z">
+        <test-method status="PASS" signature="pkiCompanyAddTest()[pri:0, instance:com.test.SikuliMaven.PkiCompanyAddTest@724af044]" name="pkiCompanyAddTest" duration-ms="10905" started-at="2017-06-16T17:09:35Z" finished-at="2017-06-16T17:09:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pkiCompanyAddTest -->
       </class> <!-- com.test.SikuliMaven.PkiCompanyAddTest -->
       <class name="com.test.SikuliMaven.PkiLoginTest">
-        <test-method status="PASS" signature="pkiLoginTest()[pri:0, instance:com.test.SikuliMaven.PkiLoginTest@51565ec2]" name="pkiLoginTest" duration-ms="6696" started-at="2017-06-14T18:26:18Z" finished-at="2017-06-14T18:26:25Z">
+        <test-method status="PASS" signature="pkiLoginTest()[pri:0, instance:com.test.SikuliMaven.PkiLoginTest@1b604f19]" name="pkiLoginTest" duration-ms="6571" started-at="2017-06-16T17:09:05Z" finished-at="2017-06-16T17:09:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pkiLoginTest -->
       </class> <!-- com.test.SikuliMaven.PkiLoginTest -->
       <class name="com.test.SikuliMaven.PkiToolApplicationExitTest">
-        <test-method status="FAIL" signature="pkiToolApplicationExit()[pri:0, instance:com.test.SikuliMaven.PkiToolApplicationExitTest@4cc0edeb]" name="pkiToolApplicationExit" duration-ms="255" started-at="2017-06-14T18:27:06Z" finished-at="2017-06-14T18:27:06Z">
-          <exception class="java.lang.ThreadDeath">
-            <full-stacktrace>
-              <![CDATA[java.lang.ThreadDeath
-	at java.lang.Thread.stop(Unknown Source)
-	at org.sikuli.script.RunTime.abortScripting(RunTime.java:73)
-	at org.sikuli.script.Image.getImageFromTarget(Image.java:614)
-	at org.sikuli.script.Region$RepeatableFind.<init>(Region.java:3129)
-	at org.sikuli.script.Region.wait(Region.java:2721)
-	at org.sikuli.script.Region.find(Region.java:2336)
-	at com.test.SikuliMaven.PkiToolApplicationExit.pkiToolApplicationExit(PkiToolApplicationExit.java:15)
-	at com.test.SikuliMaven.PkiToolApplicationExitTest.pkiToolApplicationExit(PkiToolApplicationExitTest.java:16)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.ThreadDeath -->
+        <test-method status="PASS" signature="pkiToolApplicationExit()[pri:0, instance:com.test.SikuliMaven.PkiToolApplicationExitTest@6767c1fc]" name="pkiToolApplicationExit" duration-ms="2303" started-at="2017-06-16T17:09:54Z" finished-at="2017-06-16T17:09:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pkiToolApplicationExit -->
       </class> <!-- com.test.SikuliMaven.PkiToolApplicationExitTest -->
       <class name="com.test.SikuliMaven.PkiCompanyDeleteTest">
-        <test-method status="PASS" signature="pkiCompDeleteTest()[pri:0, instance:com.test.SikuliMaven.PkiCompanyDeleteTest@7823a2f9]" name="pkiCompDeleteTest" duration-ms="21877" started-at="2017-06-14T18:26:44Z" finished-at="2017-06-14T18:27:06Z">
+        <test-method status="PASS" signature="pkiCompDeleteTest()[pri:0, instance:com.test.SikuliMaven.PkiCompanyDeleteTest@4678c730]" name="pkiCompDeleteTest" duration-ms="8150" started-at="2017-06-16T17:09:46Z" finished-at="2017-06-16T17:09:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pkiCompDeleteTest -->
       </class> <!-- com.test.SikuliMaven.PkiCompanyDeleteTest -->
+      <class name="com.test.SikuliMaven.PkiUserAddTest">
+        <test-method status="PASS" signature="pkiUserAddTest()[pri:0, instance:com.test.SikuliMaven.PkiUserAddTest@457e2f02]" name="pkiUserAddTest" duration-ms="16370" started-at="2017-06-16T17:09:11Z" finished-at="2017-06-16T17:09:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[management link is available]]>
+            </line>
+            <line>
+              <![CDATA[Pki user option is found]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pkiUserAddTest -->
+      </class> <!-- com.test.SikuliMaven.PkiUserAddTest -->
+      <class name="com.test.SikuliMaven.PkiUserEditTest">
+        <test-method status="PASS" signature="pkiUserEditTest()[pri:0, instance:com.test.SikuliMaven.PkiUserEditTest@5c7fa833]" name="pkiUserEditTest" duration-ms="3217" started-at="2017-06-16T17:09:28Z" finished-at="2017-06-16T17:09:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pkiUserEditTest -->
+      </class> <!-- com.test.SikuliMaven.PkiUserEditTest -->
+      <class name="com.test.SikuliMaven.PkiUserDeleteTest">
+        <test-method status="PASS" signature="pkiUserDeleteTest()[pri:0, instance:com.test.SikuliMaven.PkiUserDeleteTest@39aeed2f]" name="pkiUserDeleteTest" duration-ms="4040" started-at="2017-06-16T17:09:31Z" finished-at="2017-06-16T17:09:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pkiUserDeleteTest -->
+      </class> <!-- com.test.SikuliMaven.PkiUserDeleteTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

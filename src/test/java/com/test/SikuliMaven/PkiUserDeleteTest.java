@@ -13,12 +13,6 @@ public class PkiUserDeleteTest {
 	@Test public void pkiUserDeleteTest() throws FindFailed, EncryptedDocumentException, InvalidFormatException, IOException
 	
 	{
-
-		
-		
-		
-		
-		
 		
 		PkiUserDelete pkiUsrDel= new PkiUserDelete();
 		
